@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style type="text/css">
+      @font-face {
+    font-family: 'Source Sans Pro';
+    src: url('./fonts/SourceSansPro-BlackItalic.woff2') format('woff2'),
+        url('./fonts/SourceSansPro-BlackItalic.woff') format('woff'),
+        url('./fonts/SourceSansPro-BlackItalic.svg#SourceSansPro-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('./fonts/SourceSansPro-Black.woff2') format('woff2'),
+        url('./fonts/SourceSansPro-Black.woff') format('woff'),
+        url('./fonts/SourceSansPro-Black.svg#SourceSansPro-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('./fonts/SourceSansPro-Bold.woff2') format('woff2'),
+        url('./fonts/SourceSansPro-Bold.woff') format('woff'),
+        url('./fonts/SourceSansPro-Bold.svg#SourceSansPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('./fonts/SourceSansPro-BoldItalic.woff2') format('woff2'),
+        url('./fonts/SourceSansPro-BoldItalic.woff') format('woff'),
+        url('./fonts/SourceSansPro-BoldItalic.svg#SourceSansPro-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('./fonts/SourceSansPro-ExtraLight.woff2') format('woff2'),
+        url('./fonts/SourceSansPro-ExtraLight.woff') format('woff'),
+        url('./fonts/SourceSansPro-ExtraLight.svg#SourceSansPro-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('./fonts/SourceSansPro-ExtraLightItalic.woff2') format('woff2'),
+        url('./fonts/SourceSansPro-ExtraLightItalic.woff') format('woff'),
+        url('./fonts/SourceSansPro-ExtraLightItalic.svg#SourceSansPro-ExtraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('./fonts/SourceSansPro-Italic.woff2') format('woff2'),
+        url('./fonts/SourceSansPro-Italic.woff') format('woff'),
+        url('./fonts/SourceSansPro-Italic.svg#SourceSansPro-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('./fonts/SourceSansPro-Light.woff2') format('woff2'),
+        url('./fonts/SourceSansPro-Light.woff') format('woff'),
+        url('./fonts/SourceSansPro-Light.svg#SourceSansPro-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('./fonts/SourceSansPro-LightItalic.woff2') format('woff2'),
+        url('./fonts/SourceSansPro-LightItalic.woff') format('woff'),
+        url('./fonts/SourceSansPro-LightItalic.svg#SourceSansPro-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('./fonts/SourceSansPro-Regular.woff2') format('woff2'),
+        url('./fonts/SourceSansPro-Regular.woff') format('woff'),
+        url('./fonts/SourceSansPro-Regular.svg#SourceSansPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('/fonts/SourceSansPro-SemiBoldItalic.woff2') format('woff2'),
+        url('/fonts/SourceSansPro-SemiBoldItalic.woff') format('woff'),
+        url('/fonts/SourceSansPro-SemiBoldItalic.svg#SourceSansPro-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('./fonts/SourceSansPro-SemiBold.woff2') format('woff2'),
+        url('./fonts/SourceSansPro-SemiBold.woff') format('woff'),
+        url('./fonts/SourceSansPro-SemiBold.svg#SourceSansPro-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+body {   font-family: 'Source Sans Pro'; }
+.signature { width: 100%; display: inline-block; margin: 0 auto; background: #224c62; text-align: center; 
+  padding: 50px 0; position: relative; height: 100vh; }
+  .signature .logo { padding-top: 20px; position: relative; }
+.signature .logo img { width: 35%; }
+  .signature:before { content: '';
+background: url(./img/road.jpg);
+  background-repeat: repeat;
+width: 32px;
+height: 100vh;
+position: absolute;
+top: 0;
+left: 10px;
+background-repeat: repeat; }
+.signature .sig-content { text-align: left; position: relative; }
+.signature .sig-content:before { content: ''; border-left: 2px solid #85d2f8; position: absolute;
+    left: -108px; height: 170px; top: 10px;  }
+
+.signature h2 { font-size: 30px; color: #f4a232; font-weight: bold; margin: 0; }
+.signature p { font-size: 20px; color: #ffffff; font-weight: 500; margin: 0; }
+.designation { font-style: italic; }
+.contact { margin:25px 0 0; }
+.contact img { margin-right:10px; }
+.signature i{ font-size: 16px; color: #81d4f5; padding-right: 10px; }
+
+@media (max-width: 768px) {
+
+    .signature .sig-content::before { display: none;}
+    .signature .sig-content { text-align: center; margin: 30px 0; }
+
+}
+
+    </style>
+  </head>
+  <body>
+
+    <div class="signature">
+      <div class="container">
+      <div class="row">
+       <div class="col-md-6"><div class="logo"><img src="./img/logo.png"></div></div>
+        <div class="col-md-6">      
+        <div class="sig-content">
+        <h2>Salman Sulthan</h2>
+        <p class="designation">Project Manager</p>
+        <div class="contact">
+        <p><img src="./img/phone-icon.png">+971 55 534 7076</p>
+        <p><img src="./img/mail-icon.png">salman.sulthan@battmobile.ae</p>
+        <p><img src="./img/web-icon.png">www.battmobile.ae</p>
+        </div>
+      </div>
+    </div>
+      </div>
+      </div>
+     
+
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
